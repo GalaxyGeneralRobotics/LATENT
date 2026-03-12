@@ -7,15 +7,11 @@
 
 This is the official implementation of ***Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data***. This repository provides an open-source humanoid robot learning pipeline for motion tracker pre-training, online distillation, and high-level policy learning. The pipeline uses MuJoCo for simulation and supports multi-GPU parallel training.
 
----
----
 
 # News 🚩
 
 [March 13, 2026] Tracking codebase and a small subset of human tennis motion data released. **Now you can track these motions, with the tracking pipeline described in our paper.**
 
----
----
 
 # TODOs
 
@@ -29,8 +25,6 @@ This is the official implementation of ***Learning Athletic Humanoid Tennis Skil
 - [ ] Release sim2real designs for high-level tennis-playing policy
 - [ ] Release more pretrained checkpoints
 
----
----
 
 # Initialization
 
@@ -74,9 +68,6 @@ This is the official implementation of ***Learning Athletic Humanoid Tennis Skil
    python latent_mj/app/mj_playground_init.py
    ```
 
----
----
-
 # Usage
 
 ## Initialize environment
@@ -85,7 +76,6 @@ This is the official implementation of ***Learning Athletic Humanoid Tennis Skil
 source .venv/bin/activate; source .env;
 ```
 
----
 
 ## Motion tracking
 
@@ -115,9 +105,6 @@ The motion tracker training pipeline refers to the implementation in [OpenTrack]
    ```shell
    python -m latent_mj.eval.tracking.mj_onnx_video --task G1TrackingTennis --exp_name <your_exp_name> [--use_viewer] [--use_renderer] [--play_ref_motion]
    ```
-
----
----
 
 # Acknowledgement
 
