@@ -1,0 +1,1 @@
+from latent_mj.envs import g1_tracking
