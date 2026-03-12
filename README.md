@@ -21,8 +21,8 @@ This is the official implementation of ***Learning Athletic Humanoid Tennis Skil
 
 - [x] Release motion tracking codebase
 - [x] Release a small subset of human tennis motion data
-- [ ]Release pretrained tracker specialists to track all released human tennis motion data
 - [ ] Release all human tennis motion data we used
+- [ ] Release pretrained trackers to track all released human tennis motion data
 - [ ] Release DAgger online distillation codebase
 - [ ] Release pretrained latent action model trained on our tennis motion data
 - [ ] Release high-level tennis-playing policy training codebase
