@@ -2,7 +2,7 @@
   <h1 align="center"> LATENT </h1>
   <h3 align="center"> Tsinghua | Galbot </h3>
 
-📑 [Paper](https://github.com/GalaxyGeneralRobotics/LATENT) | 🏠 [Website](https://zzk273.github.io/LATENT/)
+📑 [Paper](https://arxiv.org/abs/2603.12686v1) | 🏠 [Website](https://zzk273.github.io/LATENT/)
 </div>
 
 This is the official implementation of ***Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data***. This repository provides an open-source humanoid robot learning pipeline for motion tracker pre-training, online distillation, and high-level policy learning. The pipeline uses MuJoCo for simulation and supports multi-GPU parallel training.
