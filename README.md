@@ -113,4 +113,13 @@ This repository is build upon `jax`, `brax`, `loco-mujoco`, `mujoco_playground`,
 If you find this repository helpful, please cite our work:
 
 ```bibtex
+@misc{zhang2026learningathletichumanoidtennis,
+      title={Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data}, 
+      author={Zhikai Zhang and Haofei Lu and Yunrui Lian and Ziqing Chen and Yun Liu and Chenghuai Lin and Han Xue and Zicheng Zeng and Zekun Qi and Shaolin Zheng and Qing Luan and Jingbo Wang and Junliang Xing and He Wang and Li Yi},
+      year={2026},
+      eprint={2603.12686},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.12686}, 
+}
 ```
