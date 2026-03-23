@@ -12,7 +12,7 @@ from latent_mj.utils.dataset.traj_class import (
     TrajectoryData,
     SingleData)
 from latent_mj.utils.dataset.traj_handler import TrajCarry
-from latent_mj.envs.g1_tracking import g1_tracking_constants as consts
+from latent_mj.envs.g1_tracking import g1_tracking_constants_tennis as consts
 
 class ReplayCallback:
 
