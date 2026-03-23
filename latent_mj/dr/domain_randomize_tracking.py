@@ -17,7 +17,7 @@ import jax
 import jax.numpy as jp
 from mujoco import mjx
 
-from latent_mj.envs.g1_tracking import g1_tracking_constants as consts
+from latent_mj.envs.g1_tracking import g1_tracking_constants_tennis as consts
 
 KP_SCALE_RANGE = [0.75, 1.25]
 KD_SCALE_RANGE = [0.75, 1.25]
