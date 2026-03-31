@@ -106,6 +106,15 @@ The motion tracker training pipeline refers to the implementation in [OpenTrack]
    python -m latent_mj.eval.tracking.mj_onnx_video --task G1TrackingTennis --exp_name <your_exp_name> [--use_viewer] [--use_renderer] [--play_ref_motion]
    ```
 
+## Real-World Deployment
+
+For teams interested in reproducing our system, we provide the following real-world deployment details for reference:
+- A total of 50+ motion capture cameras were used
+- Camera resolution: 2048 × 2048, at 120 Hz
+- Motion capture area: 19 × 15 meters
+
+Our real-world experiment setup (including the venue, camera system, lighting, and related infrastructure) was supported by a third-party motion capture service provider. The experiment period lasted approximately 3 weeks, with a total rental cost of around 350k RMB (approximately 50k USD).
+
 # Acknowledgement
 
 This repository is build upon `jax`, `brax`, `loco-mujoco`, `mujoco_playground`, and `OpenTrack`.
